@@ -2,9 +2,8 @@
 </script>
 
 <template>
+  <nuxt-route-announcer />
   <nuxt-layout>
-    <nuxt-route-announcer />
-    <nuxt-welcome />
     <nuxt-page />
   </nuxt-layout>
 </template>
