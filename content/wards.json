@@ -1,0 +1,42 @@
+[
+  {
+    "ward_number": 1,
+    "name": "Downtown Core",
+    "population": 45000,
+    "area_sqkm": 5.2,
+    "councillor_id": 1,
+    "tax_revenue": 15000000
+  },
+  {
+    "ward_number": 2,
+    "name": "Riverside",
+    "population": 38000,
+    "area_sqkm": 7.8,
+    "councillor_id": 2,
+    "tax_revenue": 12500000
+  },
+  {
+    "ward_number": 3,
+    "name": "Hillside Heights",
+    "population": 52000,
+    "area_sqkm": 10.5,
+    "councillor_id": 3,
+    "tax_revenue": 18000000
+  },
+  {
+    "ward_number": 4,
+    "name": "Industrial Park",
+    "population": 28000,
+    "area_sqkm": 15.3,
+    "councillor_id": 4,
+    "tax_revenue": 22000000
+  },
+  {
+    "ward_number": 5,
+    "name": "Green Valley",
+    "population": 41000,
+    "area_sqkm": 12.7,
+    "councillor_id": 5,
+    "tax_revenue": 14000000
+  }
+]

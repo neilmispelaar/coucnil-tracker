@@ -17,6 +17,6 @@ import AppHeader from '@/components/app/app-header.vue';
 
 <style>
 body {
-  @apply bg-gray-500;
+  @apply bg-blue-chill-100;
 }
 </style>
