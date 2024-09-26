@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <div class="bg-gray-800 text-white p-4">
+    <div class="bg-gray-800 text-white">
       <h2 class="text-2xl">
         My App
       </h2>

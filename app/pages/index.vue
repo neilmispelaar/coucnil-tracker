@@ -1,17 +1,40 @@
 <script setup lang="ts">
+import VoteForm from '@/components/vote-form/vote-form.vue';
 import { useCouncillorsStore } from '@/stores/councillors';
+import { useVotesStore } from '@/stores/votes';
+import { useWardsStore } from '@/stores/wards';
 
 const councillorsStore = useCouncillorsStore();
 
 const wardsStore = useWardsStore();
+
+const votesStore = useVotesStore();
 </script>
 
 <template>
   <div>
-    <div class="bg-gray-800 text-white p-4">
-      <h1 class="text-2xl">
+    <vote-form />
+
+    <div class="p-10">
+      <h1 class="text-2xl mb-5">
         Hello world!
       </h1>
+
+      <u-card>
+        <h2 class="text-xl">
+          Card title
+        </h2>
+
+        <ul>
+          <li
+            v-for="vote in votesStore.votes"
+            :key="vote.councillorId"
+          >
+            {{ vote.councillorId }}: {{ vote.vote }}
+          </li>
+        </ul>
+      </u-card>
+
       <u-button>Button</u-button>
       <div v-if="councillorsStore.councillors">
         <p>{{ councillorsStore.councillors }}</p>

@@ -7,7 +7,7 @@ export const useWardsStore = defineStore('wards', () => {
   const loading = ref<boolean>(false);
   const error = ref<string | null>(null);
 
-  // actions
+  // Actions
   const fetchWards = async () => {
     loading.value = true;
 
@@ -36,10 +36,16 @@ export const useWardsStore = defineStore('wards', () => {
     }
   };
 
+  // Getters
+  function getWardByCouncilor(councillorId: number): Ward | null {
+    return wards.value.find(w => w.councillorId === councillorId) || null;
+  }
+
   // This will run when the store is first used
   fetchWards();
 
   return {
     wards,
+    getWardByCouncilor,
   };
 });

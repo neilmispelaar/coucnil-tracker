@@ -38,7 +38,7 @@
     "strings": true
   },
 
-  "tailwindCSS.experimental.configFile": "tailwind.config.ts",
+  "tailwindCSS.experimental.configFile": "tailwind.config.js",
 
   "css.customData": [".vscode/tailwind.json"]
 

@@ -1,10 +1,11 @@
 interface Ward {
-  ward_number: number
+  wardId: number
+  wardNumber: number
   name: string
   population: number
-  area_sqkm: number
-  councillor_id: number
-  tax_revenue: number
+  areaSqkm: number
+  councillorId: number
+  taxRevenue: number
 }
 
 export type { Ward };

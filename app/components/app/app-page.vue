@@ -4,19 +4,17 @@ import AppHeader from '@/components/app/app-header.vue';
 </script>
 
 <template>
-  <u-container>
-    <app-header />
+  <app-header />
 
-    <main class=" bg-slate-100">
-      <slot />
-    </main>
+  <main>
+    <slot />
+  </main>
 
-    <app-footer />
-  </u-container>
+  <app-footer />
 </template>
 
 <style>
 body {
-  @apply bg-blue-chill-100;
+  @apply bg-neutral-100;
 }
 </style>
