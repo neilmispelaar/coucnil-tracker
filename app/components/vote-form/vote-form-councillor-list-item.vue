@@ -47,16 +47,12 @@ watch(localVote, (newVote) => {
       </div>
 
       <div class="flex">
-        <u-radio
+        <vote-form-councillor-list-item-radio-button
           v-for="voteOption in voteOptions"
           :key="voteOption.label"
-          :name="councillor.name"
-          class="mr-10"
-        >
-          <template #label>
-            {{ voteOption.label }}
-          </template>
-        </u-radio>
+          :vote-option
+          :group-id="councillor.name"
+        />
       </div>
     </div>
   </fieldset>
