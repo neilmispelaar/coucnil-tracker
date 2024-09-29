@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import VoteForm from '@/components/vote-form/vote-form.vue';
+import VoteMap from '@/components/vote-map/vote-map.vue';
 import { useCouncillorsStore } from '@/stores/councillors';
 import { useVotesStore } from '@/stores/votes';
 import { useWardsStore } from '@/stores/wards';
 
-const councillorsStore = useCouncillorsStore();
+// const councillorsStore = useCouncillorsStore();
 
 const wardsStore = useWardsStore();
 
@@ -14,8 +15,13 @@ const votesStore = useVotesStore();
 <template>
   <div>
     <vote-form />
+    <client-only>
+      <vote-map />
+    </client-only>
 
-    <div class="p-10">
+    <div
+      class="p-10"
+    >
       <h1 class="text-2xl mb-5">
         Hello world!
       </h1>
@@ -35,14 +41,14 @@ const votesStore = useVotesStore();
         </ul>
       </u-card>
 
-      <u-button>Button</u-button>
-      <div v-if="councillorsStore.councillors">
-        <p>{{ councillorsStore.councillors }}</p>
-      </div>
-
-      <div v-if="wardsStore.wards">
-        <p>{{ wardsStore.wards }}</p>
-      </div>
+      <ul>
+        <li
+          v-for="ward in wardsStore.wards"
+          :key="ward.id"
+        >
+          {{ ward.name }}: {{ ward.number }}
+        </li>
+      </ul>
     </div>
   </div>
 </template>

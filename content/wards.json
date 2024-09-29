@@ -1,56 +1,26 @@
 [
   {
-    "wardId": 1,
-    "wardNumber": 1,
-    "name": "Riverside",
+    "id": 100,
+    "number": "1",
     "population": 62500,
     "areaSqkm": 28.5,
-    "councillorId": 1,
+    "councillorId": 101,
     "taxRevenue": 15200000
   },
   {
-    "wardId": 2,
-    "wardNumber": 2,
-    "name": "Central Heights",
-    "population": 78000,
-    "areaSqkm": 22.3,
-    "councillorId": 2,
-    "taxRevenue": 19500000
-  },
-  {
-    "wardId": 3,
-    "wardNumber": 3,
-    "name": "Westfield",
+    "id": 101,
+    "number": "2",
     "population": 55000,
-    "areaSqkm": 35.7,
+    "areaSqkm": 22.3,
+    "councillorId": 102,
+    "taxRevenue": 13800000
+  },
+  {
+    "id": 102,
+    "number": "15",
+    "population": 70000,
+    "areaSqkm": 30.1,
     "councillorId": 103,
-    "taxRevenue": 13750000
-  },
-  {
-    "wardId": 4,
-    "wardNumber": 4,
-    "name": "Northview",
-    "population": 68000,
-    "areaSqkm": 30.2,
-    "councillorId": 104,
-    "taxRevenue": 17000000
-  },
-  {
-    "wardId": 5,
-    "wardNumber": 5,
-    "name": "East End",
-    "population": 59000,
-    "areaSqkm": 26.8,
-    "councillorId": 105,
-    "taxRevenue": 14750000
-  },
-  {
-    "wardId": 6,
-    "wardNumber": 6,
-    "name": "South Shore",
-    "population": 71000,
-    "areaSqkm": 32.1,
-    "councillorId": 106,
-    "taxRevenue": 17750000
+    "taxRevenue": 17500000
   }
 ]

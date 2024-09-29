@@ -1,24 +1,31 @@
 <script setup lang="ts">
-import type { VoteOptions } from '@/types';
+import type { Councillor, VoteOptions, VoteOptionType } from '@/types';
 
-const _props = defineProps({
+const props = defineProps({
   voteOption: {
     type: Object as () => typeof VoteOptions[keyof typeof VoteOptions],
     required: true,
   },
-  groupId: {
-    type: String,
+  councillor: {
+    type: Object as () => Councillor,
     required: true,
   },
 });
 
-const inputId = computed(() => `${_props.groupId}_${_props.voteOption.value}`);
+// Use VoteOptionType for the localVote ref
+const localVote = defineModel<VoteOptionType | null>();
+
+// Id and for attributes for the input and label elements
+const inputId = computed(() => `${props.councillor.id}_${props.voteOption.value}`);
+
+const groupId = computed(() => `councillor_${props.councillor.id}`);
 </script>
 
 <template>
   <div class="radio-button">
     <input
       :id="inputId"
+      v-model="localVote"
       type="radio"
       :name="groupId"
       :value="voteOption.value"

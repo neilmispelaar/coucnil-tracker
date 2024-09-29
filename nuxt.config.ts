@@ -21,5 +21,5 @@ export default defineNuxtConfig({
     // ... options
   },
 
-  modules: ['@nuxt/ui', '@pinia/nuxt', '@nuxt/content'],
+  modules: ['@nuxt/ui', '@pinia/nuxt', '@nuxt/content', '@nuxtjs/leaflet'],
 });
