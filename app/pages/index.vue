@@ -6,9 +6,6 @@ import { useVotesStore } from '@/stores/votes';
 import { useWardsStore } from '@/stores/wards';
 
 // const councillorsStore = useCouncillorsStore();
-
-const wardsStore = useWardsStore();
-
 const votesStore = useVotesStore();
 </script>
 
@@ -27,10 +24,6 @@ const votesStore = useVotesStore();
       </h1>
 
       <u-card>
-        <h2 class="text-xl">
-          Card title
-        </h2>
-
         <ul>
           <li
             v-for="vote in votesStore.votes"
@@ -40,15 +33,6 @@ const votesStore = useVotesStore();
           </li>
         </ul>
       </u-card>
-
-      <ul>
-        <li
-          v-for="ward in wardsStore.wards"
-          :key="ward.id"
-        >
-          {{ ward.name }}: {{ ward.number }}
-        </li>
-      </ul>
     </div>
   </div>
 </template>

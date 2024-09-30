@@ -6,7 +6,7 @@ import 'leaflet/dist/leaflet.css';
 const map = ref(null);
 const zoom = ref(10);
 
-const geojsonData = {
+const _geojsonData = {
   type: 'FeatureCollection',
   features: [
     {
@@ -43,8 +43,6 @@ const geojsonOptions = {
 <template>
   <div class="vote-map">
     <div class="map-container">
-      <p>Hello world</p>
-
       <div style="height:600px; width:800px">
         <l-map
           ref="map"
@@ -59,7 +57,6 @@ const geojsonOptions = {
           />
 
           <l-geo-json
-            :geojson="geojsonData"
             :options="geojsonOptions"
           />
         </l-map>

@@ -1,16 +1,20 @@
 [
   {
     "id": 1,
-    "name": "John Doe",
-    "ward": "Ward 1",
-    "email": "john.doe@ottawa.ca",
-    "phone": "613-123-4567"
+    "name": "Jane Smith",
+    "email": "jane.smith@ottawa.ca",
+    "phone": "613-234-5678"
   },
   {
     "id": 2,
-    "name": "Jane Smith",
-    "ward": "Ward 2",
-    "email": "jane.smith@ottawa.ca",
+    "name": "Antonio Banderas",
+    "email": "antonio.banderas@ottawa.ca",
     "phone": "613-234-5678"
+  },
+  {
+    "id": 3,
+    "name": "John Doe",
+    "email": "john.doe@ottawa.ca",
+    "phone": "613-123-4567"
   }
 ]

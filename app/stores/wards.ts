@@ -10,32 +10,24 @@ export const useWardsStore = defineStore('wards', () => {
   const error = ref<string | null>(null);
 
   // Actions
-  const fetchWards = async () => {
+  async function fetchWards() {
     loading.value = true;
     error.value = null;
 
     try {
-      const { data } = await useAsyncData('wards', async () => {
-        // queryContent('/wards').findOne());
-        const [incomingWards, incomingGeoJsonData] = await Promise.all([
-          queryContent('/wards').findOne(),
-          queryContent('/wards-geo').findOne(),
-        ]);
+      const [incomingWards, incomingGeoJsonData] = await Promise.all([
+        queryContent('/wards').findOne(),
+        queryContent('/wards-geo').findOne(),
+      ]);
 
-        return { incomingWards, incomingGeoJsonData };
-      });
+      // const { data: incomingGeoJsonData } = await useAsyncData('geoJsonData', () => queryContent('/wards-geo').findOne());
+
+      // console.log('INCOMING WARDS', incomingWards, incomingGeoJsonData);
 
       wards.value = mergeWardData(
-        data.value?.incomingWards.body as unknown as Partial<Ward>[],
-        data.value?.incomingGeoJsonData.features as unknown as Feature<Geometry, GeoJsonProperties>[],
+        incomingWards?.body as unknown as Partial<Ward>[],
+        incomingGeoJsonData?.features as unknown as Feature<Geometry, GeoJsonProperties>[],
       );
-
-      // if (data.value && Array.isArray(data.value.body)) {
-      //   wards.value = data.value.body as Ward[];
-      // }
-      // else {
-      //   throw new Error('No valid data was returned');
-      // }
     }
     catch (e: unknown) {
       if (e instanceof Error) {
@@ -71,8 +63,6 @@ export const useWardsStore = defineStore('wards', () => {
         name: geoJsonFeature?.properties!.NAME,
         sector: geoJsonFeature?.properties!.SECTOR_EN,
         globalId: geoJsonFeature?.properties!.GLOBALID,
-        createdDate: geoJsonFeature?.properties!.CREATED_DA,
-        lastEditedDate: geoJsonFeature?.properties!.LAST_EDITE,
         mapData: geoJsonFeature || null,
       } as Ward;
     });
@@ -80,14 +70,21 @@ export const useWardsStore = defineStore('wards', () => {
 
   // Getters
   function getWardByCouncilor(councillorId: number): Ward | null {
+    if (!Array.isArray(wards.value)) {
+      return null;
+    }
     return wards.value.find(w => w.councillorId === councillorId) || null;
   }
 
   // This will run when the store is first used
-  fetchWards();
+  // fetchWards();
+  // fetchData();
 
   return {
+    loading,
+    error,
     wards,
+    fetchWards,
     getWardByCouncilor,
   };
 });

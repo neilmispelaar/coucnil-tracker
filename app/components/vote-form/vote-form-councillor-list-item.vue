@@ -2,7 +2,6 @@
 import type { Councillor, VoteOptionType } from '@/types';
 import voteFormCouncillorListItemRadioButton from '@/components/vote-form/vote-form-councillor-list-item-radio-button.vue';
 import { useVotesStore } from '@/stores/votes';
-
 import { useWardsStore } from '@/stores/wards';
 import { VoteOptions } from '@/types';
 import { computed, ref, watch } from 'vue';
@@ -24,13 +23,11 @@ const localVote = ref<VoteOptionType | null>();
 const voteOptions = computed(() => Object.values(VoteOptions));
 
 const wardName = computed(() => {
-  return wardsStore.getWardByCouncilor(props.councillor.id)?.name || 'Ward information not found';
+  return wardsStore.getWardByCouncilor(props.councillor.id)?.name;
 });
 
 // Watch for changes in localVote and update the store
 watch(localVote, (newVote) => {
-  // eslint-disable-next-line no-console
-  console.log('newVote', newVote);
   if (newVote !== undefined) {
     votesStore.updateVote(props.councillor.id, newVote);
   }
@@ -40,14 +37,8 @@ watch(localVote, (newVote) => {
 <template>
   <fieldset>
     <div class="flex justify-between items-center">
-      <div>
-        <label>
-          <p class="font-semibold">{{ councillor.name }}</p>
-          <p class="text-sm text-gray-700">
-            {{ wardName }}
-          </p>
-        </label>
-      </div>
+      <p>{{ councillor.name }}</p>
+      <p>{{ wardName || 'Loading...' }}</p>
 
       <div class="flex">
         <vote-form-councillor-list-item-radio-button

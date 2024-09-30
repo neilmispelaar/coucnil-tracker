@@ -37,9 +37,10 @@ export const useCouncillorsStore = defineStore('councillors', () => {
   };
 
   // This will run when the store is first used
-  fetchCouncillors();
+  // fetchCouncillors();
 
   return {
     councillors,
+    fetchCouncillors,
   };
 });

@@ -22,5 +22,15 @@ defineProps({
         <vote-form-councillor-list-item :councillor="councillor" />
       </li>
     </ul>
+
+    <ul>
+      <li
+        v-for="councillor in councillors"
+        :key="councillor.id"
+        class="p-2 border-b border-stone-300"
+      >
+        {{ councillor }}
+      </li>
+    </ul>
   </div>
 </template>
