@@ -13,9 +13,9 @@
     "@nuxt/content": "^2.13.2",
     "@nuxt/ui": "^2.18.6",
     "@nuxtjs/leaflet": "^1.2.3",
-    "@pinia/nuxt": "^0.5.4",
+    "@pinia/nuxt": "^0.5.5",
     "nuxt": "^3.13.2",
-    "pinia": "^2.2.2",
+    "pinia": "^2.2.4",
     "vue": "latest",
     "vue-router": "latest"
   },
