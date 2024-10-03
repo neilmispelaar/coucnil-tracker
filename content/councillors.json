@@ -16,5 +16,11 @@
     "name": "John Doe",
     "email": "john.doe@ottawa.ca",
     "phone": "613-123-4567"
+  },
+  {
+    "id": 4,
+    "name": "Mark Assaman",
+    "email": "mark.assaman@ottawa.ca",
+    "phone": "613-123-4567"
   }
 ]

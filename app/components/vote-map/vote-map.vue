@@ -4,7 +4,7 @@ import voteMapOptions from '@/components/vote-map/vote-map-options.vue';
 </script>
 
 <template>
-  <u-container v-if="false">
+  <u-container>
     <u-card>
       <h2 class="text-xl">
         Card title
