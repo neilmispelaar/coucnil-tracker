@@ -3,7 +3,7 @@ export default defineAppConfig({
     primary: 'blue-chill',
     gray: 'neutral',
     container: {
-      constrained: 'max-w-4xl',
+      constrained: 'max-w-screen-2xl',
     },
     card: {
       rounded: 'rounded-2xl',

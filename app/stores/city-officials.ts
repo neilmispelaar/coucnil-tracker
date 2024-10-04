@@ -1,21 +1,21 @@
-import type { Councillor } from '@/types';
+import type { CityOfficial } from '@/types';
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
 
-export const useCouncillorsStore = defineStore('councillors', () => {
-  const councillors = ref<Councillor[]>([]);
+export const useCityOfficialsStore = defineStore('city-officials', () => {
+  const cityOfficials = ref<CityOfficial[]>([]);
   const loading = ref<boolean>(false);
   const error = ref<string | null>(null);
 
   // actions
-  const fetchCouncillors = async () => {
+  const fetchCityOfficials = async () => {
     loading.value = true;
 
     try {
-      const { data } = await useAsyncData('councillors', () => queryContent('/councillors').findOne());
+      const { data } = await useAsyncData('city-officials', () => queryContent('/city-officials').findOne());
 
       if (data.value && Array.isArray(data.value.body)) {
-        councillors.value = data.value.body as Councillor[];
+        cityOfficials.value = data.value.body as CityOfficial[];
       }
       else {
         throw new Error('No valid data was returned');
@@ -40,7 +40,7 @@ export const useCouncillorsStore = defineStore('councillors', () => {
   // fetchCouncillors();
 
   return {
-    councillors,
-    fetchCouncillors,
+    cityOfficials,
+    fetchCityOfficials,
   };
 });

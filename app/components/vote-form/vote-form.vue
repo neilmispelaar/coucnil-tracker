@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import VoteFormCouncillorList from '@/components/vote-form/vote-form-councillor-list.vue';
-import { useCouncillorsStore } from '@/stores/councillors';
-import { ref } from 'vue';
+import VoteFormCityOffficialList from '@/components/vote-form/vote-form-city-official-list.vue';
+import { useCityOfficialsStore } from '~/stores/city-officials';
 
-const councillorsStore = useCouncillorsStore();
+const cityOfficialsStore = useCityOfficialsStore();
 </script>
 
 <template>
@@ -11,7 +10,7 @@ const councillorsStore = useCouncillorsStore();
     <u-card class="my-10">
       <div>
         <form @submit.prevent>
-          <vote-form-councillor-list :councillors="councillorsStore.councillors" />
+          <vote-form-city-offficial-list :city-officials="cityOfficialsStore.cityOfficials" />
         </form>
       </div>
     </u-card>

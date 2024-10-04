@@ -10,7 +10,15 @@ interface Ward {
 
   // Additional information
   councillorId: number
-  taxRevenue: number
+
+  // Financial information
+  propertyTaxes: {
+    assessedValue: number
+    revenueCollected: number
+    share: number
+  }
+
+  // This information comes from the geojson file
   sector: string
 
   // Metadata

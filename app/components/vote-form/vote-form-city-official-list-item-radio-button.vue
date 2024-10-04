@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import type { Councillor, VoteOptions, VoteOptionType } from '@/types';
+import type { CityOfficial, VoteOptions, VoteOptionType } from '@/types';
 
 const props = defineProps({
   voteOption: {
     type: Object as () => typeof VoteOptions[keyof typeof VoteOptions],
     required: true,
   },
-  councillor: {
-    type: Object as () => Councillor,
+  cityOfficial: {
+    type: Object as () => CityOfficial,
     required: true,
   },
 });
@@ -16,9 +16,9 @@ const props = defineProps({
 const localVote = defineModel<VoteOptionType | null>();
 
 // Id and for attributes for the input and label elements
-const inputId = computed(() => `${props.councillor.id}_${props.voteOption.value}`);
+const inputId = computed(() => `${props.cityOfficial.id}_${props.voteOption.value}`);
 
-const groupId = computed(() => `councillor_${props.councillor.id}`);
+const groupId = computed(() => `councillor_${props.cityOfficial.id}`);
 </script>
 
 <template>

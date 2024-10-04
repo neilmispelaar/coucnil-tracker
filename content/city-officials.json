@@ -1,0 +1,551 @@
+[
+  {
+    "id": 1,
+    "name": "Laura Dudas",
+    "district_name": "Orléans West-Innes",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Laura",
+    "last_name": "Dudas",
+    "party_name": "",
+    "email": "Laura.Dudas@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/laura-dudas-councillor-ward-2-orleans-west-innes",
+    "personal_url": "https://lauradudas.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Laura-Dudas-Selection%20-%20Confirmed.jpg?h=980a3241&itok=lfjEnDgR",
+    "offices": [
+      {
+        "fax": "1 613 580-2512",
+        "tel": "1 613 580-2472",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mark Sutcliffe",
+    "district_name": "Ottawa",
+    "elected_office": "Mayor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Mark",
+    "last_name": "Sutcliffe",
+    "party_name": "",
+    "email": "Mark.Sutcliffe@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/mark-sutcliffe-mayor",
+    "personal_url": "https://marksutcliffe.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Mark-Sutcliffe-Selection-1-Confirmed.jpg?h=fe9152b9&itok=EF3CzunI",
+    "offices": [
+      {
+        "fax": "1 613 580-2509",
+        "tel": "1 613 580-2496",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Catherine Kitts",
+    "district_name": "Orléans South-Navan",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Catherine",
+    "last_name": "Kitts",
+    "party_name": "",
+    "email": "Catherine.Kitts@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/catherine-kitts-councillor-ward-19-orleans-south-navan",
+    "personal_url": "https://www.catherinekitts.com/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Catherine-Kitts-Selection-Confirmed.jpg?h=68f99baa&itok=YMyrTJ1r",
+    "offices": [
+      {
+        "fax": "1 613 580-2697",
+        "tel": "1 613 580-2489",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sean Devine",
+    "district_name": "Knoxdale-Merivale",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Sean",
+    "last_name": "Devine",
+    "party_name": "",
+    "email": "knoxdalemerivale@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/sean-devine-councillor-ward-9-knoxdale-merivale",
+    "personal_url": "https://www.seandevine.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Sean-Devine-Selection-Confirmed.jpg?h=dcb9840a&itok=c8_nGvfc",
+    "offices": [
+      {
+        "fax": "1 613 580-2519",
+        "tel": "1 613 580-2479",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "David Brown",
+    "district_name": "Rideau-Jock",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "David",
+    "last_name": "Brown",
+    "party_name": "",
+    "email": "Ward21@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/david-brown-councillor-ward-21-rideau-jock",
+    "personal_url": "https://www.ward21.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-David-Brown-Selection-Confirmed.jpg?h=25f6795e&itok=SglqcO8a",
+    "offices": [
+      {
+        "fax": "1 613 580-2531",
+        "tel": "1 613 580-2491",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "David Hill",
+    "district_name": "Barrhaven West",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "David",
+    "last_name": "Hill",
+    "party_name": "",
+    "email": "David.Hill@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/david-hill-councillor-ward-3-barrhaven-west",
+    "personal_url": "https://www.davidhillbarrhaven.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-David-Hill-Selection%20-%20Confirmed.jpg?h=35ff0ebd&itok=e2usll5D",
+    "offices": [
+      {
+        "fax": "1 613 580-2513",
+        "tel": "1 613 580-2473",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Rawlson King",
+    "district_name": "Rideau-Rockcliffe",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Rawlson",
+    "last_name": "King",
+    "party_name": "",
+    "email": "rideaurockcliffeward@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/rawlson-king-councillor-ward-13-rideau-rockcliffe",
+    "personal_url": "https://www.rideau-rockcliffe.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Rawlson-King-Selection-Confirmed.jpg?h=7ac41a46&itok=F1mxKc_2",
+    "offices": [
+      {
+        "fax": "1 613 580-2523",
+        "tel": "1 613 580-2483",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Riley Brockington",
+    "district_name": "River",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Riley",
+    "last_name": "Brockington",
+    "party_name": "",
+    "email": "Riley.Brockington@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/riley-brockington-councillor-ward-16-river",
+    "personal_url": "https://rileybrockington.ca/riverward/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Riley-Brockington-Selection-Confirmed.jpg?h=faea3fef&itok=MtRA-H4j",
+    "offices": [
+      {
+        "fax": "1 613 580-2526",
+        "tel": "1 613 580-2486",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Marty Carr",
+    "district_name": "Alta Vista",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Marty",
+    "last_name": "Carr",
+    "party_name": "",
+    "email": "Marty.Carr@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/marty-carr-councillor-ward-18-alta-vista",
+    "personal_url": "https://martycarrottawa.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Marty-Carr-Selection-Confirmed.jpg?h=6b16a321&itok=kRdcYnE8",
+    "offices": [
+      {
+        "fax": "1 613 580-2528",
+        "tel": "1 613 580-2488",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "George Darouze",
+    "district_name": "Osgoode",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "George",
+    "last_name": "Darouze",
+    "party_name": "",
+    "email": "George.Darouze@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/george-darouze-councillor-ward-20-osgoode",
+    "personal_url": "https://www.georgedarouze.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-George-Darouze-Selection-Confirmed.jpg?h=ce0ab006&itok=zF4hUk1m",
+    "offices": [
+      {
+        "fax": "1 613 580-2530",
+        "tel": "1 613 580-2490",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Laine Johnson",
+    "district_name": "College",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Laine",
+    "last_name": "Johnson",
+    "party_name": "",
+    "email": "Collegeward@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/laine-johnson-councillor-ward-8-college",
+    "personal_url": "https://www.college-ward.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Laine-Johnson-Selection-Confirmed.jpg?h=071dd745&itok=jSFmNKsY",
+    "offices": [
+      {
+        "fax": "1 613 580-2518",
+        "tel": "1 613 580-2478",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Matthew Luloff",
+    "district_name": "Orl\u00e9ans East-Cumberland",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Matthew",
+    "last_name": "Luloff",
+    "party_name": "",
+    "email": "Matt.Luloff@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/matthew-luloff-councillor-ward-1-orleans-east-cumberland",
+    "personal_url": "https://matthewluloff.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Matt-Luloff-Selection-Confirmed.jpg?h=0dc195df&itok=s7WWWs9p",
+    "offices": [
+      {
+        "fax": "1 613 580-2511",
+        "tel": "1 613 580-2471",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Wilson Lo",
+    "district_name": "Barrhaven East",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Wilson",
+    "last_name": "Lo",
+    "party_name": "",
+    "email": "Wilson.Lo@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/wilson-lo-councillor-ward-24-barrhaven-east",
+    "personal_url": "https://www.ward24.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Wilson-Lo-Selection-Confirmed.jpg?h=634d29ce&itok=s5XXsrzw",
+    "offices": [
+      {
+        "tel": "1 613 580-2846",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Clarke Kelly",
+    "district_name": "West Carleton-March",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Clarke",
+    "last_name": "Kelly",
+    "party_name": "",
+    "email": "Clarke.Kelly@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/clarke-kelly-councillor-and-deputy-mayor-ward-5-west-carleton-march",
+    "personal_url": "https://www.clarkekelly.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Clarke-Kelly-Selection-Confirmed.jpg?h=2a8b3586&itok=LPAHszG3",
+    "offices": [
+      {
+        "fax": "1 613 580-2515",
+        "tel": "1 613 580-2475",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Jeff Leiper",
+    "district_name": "Kitchissippi",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Jeff",
+    "last_name": "Leiper",
+    "party_name": "",
+    "email": "Jeff.Leiper@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/jeff-leiper-councillor-ward-15-kitchissippi",
+    "personal_url": "https://kitchissippiward.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Jeff-Leiper-Selection-Confirmed.jpg?h=18ec2dcd&itok=YBT8Nsyw",
+    "offices": [
+      {
+        "fax": "1 613 580-2525",
+        "tel": "1 613 580-2485",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Cathy Curry",
+    "district_name": "Kanata North",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Cathy",
+    "last_name": "Curry",
+    "party_name": "",
+    "email": "Cathy.Curry@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/cathy-curry-councillor-ward-4-kanata-north",
+    "personal_url": "https://www.kanatanorth.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Cathy-Curry-Selection-Confirmed.jpg?h=52fd5d4f&itok=pVJ8oxRi",
+    "offices": [
+      {
+        "fax": "1 613 580-2514",
+        "tel": "1 613 580-2474",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Shawn Menard",
+    "district_name": "Capital",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Shawn",
+    "last_name": "Menard",
+    "party_name": "",
+    "email": "Capitalward@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/shawn-menard-councillor-ward-17-capital",
+    "personal_url": "https://www.shawnmenard.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Shawn-Menard-Selection-Confirmed.jpg?h=dfc21bb3&itok=JARmh0ff",
+    "offices": [
+      {
+        "fax": "1 613 580-2527",
+        "tel": "1 613 580-2487",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Ariel Troster",
+    "district_name": "Somerset",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Ariel",
+    "last_name": "Troster",
+    "party_name": "",
+    "email": "Ariel.Troster@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/ariel-troster-councillor-ward-14-somerset",
+    "personal_url": "https://www.arieltroster.com/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Ariel-Troster-Selection%20-%20Confirmed.jpg?h=e01f9c3c&itok=ms8E6OZV",
+    "offices": [
+      {
+        "fax": "1 613 580-2524",
+        "tel": "1 613 580-2484",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Jessica Bradley",
+    "district_name": "Gloucester-Southgate",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Jessica",
+    "last_name": "Bradley",
+    "party_name": "",
+    "email": "Jessica.Bradley@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/jessica-bradley-councillor-ward-10-gloucester-southgate",
+    "personal_url": "https://gloucestersouthgate.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Jessica-Bradley-Selection-Confirmed.jpg?h=bc13647b&itok=Ud3PvpBv",
+    "offices": [
+      {
+        "fax": "1 613 580-2520",
+        "tel": "1 613 580-2480",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Glen Gower",
+    "district_name": "Stittsville",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Glen",
+    "last_name": "Gower",
+    "party_name": "",
+    "email": "Glen.Gower@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/glen-gower-councillor-and-deputy-mayor-ward-6-stittsville",
+    "personal_url": "https://www.glengower.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Glen-Gower-Selection-1-Confirmed.jpg?h=b9c8a0c1&itok=LoMQCpNQ",
+    "offices": [
+      {
+        "fax": "1 613 580-2516",
+        "tel": "1 613 580-2476",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "St\u00e9phanie Plante",
+    "district_name": "Rideau-Vanier",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "St\u00e9phanie",
+    "last_name": "Plante",
+    "party_name": "",
+    "email": "Stephanie.Plante@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/stephanie-plante-councillor-ward-12-rideau-vanier",
+    "personal_url": "https://stephanieplante.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Stephanie-Plante-Selection-Confirmed.jpg?h=daa5a392&itok=x8_Tz6a3",
+    "offices": [
+      {
+        "fax": "1 613 580-2522",
+        "tel": "1 613 580-2482",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Allan Hubley",
+    "district_name": "Kanata South",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Allan",
+    "last_name": "Hubley",
+    "party_name": "",
+    "email": "Allan.Hubley@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/allan-hubley-councillor-ward-23-kanata-south",
+    "personal_url": "http://councillorallanhubley.ca",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Allan-Hubley-Selection-Confirmed.jpg?h=f16d9b3d&itok=v-j_WGZx",
+    "offices": [
+      {
+        "fax": "1 613 580-2762",
+        "tel": "1 613 580-2752",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Steve Desroches",
+    "district_name": "Riverside South-Findlay Creek",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Steve",
+    "last_name": "Desroches",
+    "party_name": "",
+    "email": "Steve.Desroches@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/steve-desroches-councillor-ward-22-riverside-south-findlay-creek",
+    "personal_url": "https://stevedesroches.com/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Steve-Desroches-Selection-Confirmed.jpg?h=f5bc16b2&itok=o-BxkHe8",
+    "offices": [
+      {
+        "fax": "1 613 580-2761",
+        "tel": "1 613 580-2751",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Tim Tierney",
+    "district_name": "Beacon Hill-Cyrville",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Tim",
+    "last_name": "Tierney",
+    "party_name": "",
+    "email": "Timothy.Tierney@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/tim-tierney-councillor-ward-11-beacon-hill-cyrville",
+    "personal_url": "",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Tim-Tierney-Selection-Confirmed.jpg?h=ac720dff&itok=OhEmSPB5",
+    "offices": [
+      {
+        "fax": "1 613 580-2521",
+        "tel": "1 613 580-2481",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Theresa Kavanagh",
+    "district_name": "Bay",
+    "elected_office": "Councillor",
+    "source_url": "https://www.arcgis.com/sharing/rest/content/items/a5e9dc2425274bb796d3ded47b0d7b00/data",
+    "first_name": "Theresa",
+    "last_name": "Kavanagh",
+    "party_name": "",
+    "email": "BayWard@ottawa.ca",
+    "url": "https://ottawa.ca/en/city-hall/mayor-and-city-councillors/theresa-kavanagh-councillor-and-deputy-mayor-ward-7-bay",
+    "personal_url": "https://www.baywardbulletin.ca/",
+    "photo_url": "https://ottawa.ca/sites/default/files/styles/portrait_lg/public/2022-11/2022-11-01-Theresa-Kavanagh-Selection-Confirmed.jpg?h=2eb819c8&itok=5gcyY6Ab",
+    "offices": [
+      {
+        "fax": "1 613 580-2517",
+        "tel": "1 613 580-2477",
+        "type": "legislature",
+        "postal": "110 Laurier Avenue West"
+      }
+    ]
+  }
+]

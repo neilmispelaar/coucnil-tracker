@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import type { Councillor, VoteOptionType } from '@/types';
-import voteFormCouncillorListItemRadioButton from '@/components/vote-form/vote-form-councillor-list-item-radio-button.vue';
+import type { CityOfficial, VoteOptionType } from '@/types';
+import voteFormCityOfficialListItemRadioButton from '@/components/vote-form/vote-form-city-official-list-item-radio-button.vue';
 import { useVotesStore } from '@/stores/votes';
 import { useWardsStore } from '@/stores/wards';
 import { VoteOptions } from '@/types';
 import { computed, ref, watch } from 'vue';
 
 const props = defineProps({
-  councillor: {
-    type: Object as () => Councillor,
+  cityOfficial: {
+    type: Object as () => CityOfficial,
     required: true,
   },
 });
@@ -23,13 +23,13 @@ const localVote = ref<VoteOptionType | null>();
 const voteOptions = computed(() => Object.values(VoteOptions));
 
 const wardName = computed(() => {
-  return wardsStore.getWardByCouncilor(props.councillor.id)?.name;
+  return wardsStore.getWardByCouncilor(props.cityOfficial.id)?.name;
 });
 
 // Watch for changes in localVote and update the store
 watch(localVote, (newVote) => {
   if (newVote !== undefined) {
-    votesStore.updateVote(props.councillor.id, newVote);
+    votesStore.updateVote(props.cityOfficial.id, newVote);
   }
 });
 </script>
@@ -37,16 +37,16 @@ watch(localVote, (newVote) => {
 <template>
   <fieldset>
     <div class="flex justify-between items-center">
-      <p>{{ councillor.name }}</p>
+      <p>{{ cityOfficial.name }}</p>
       <p>{{ wardName || 'Loading...' }}</p>
 
       <div class="flex">
-        <vote-form-councillor-list-item-radio-button
+        <vote-form-city-official-list-item-radio-button
           v-for="voteOption in voteOptions"
           :key="voteOption.label"
           v-model="localVote"
           :vote-option
-          :councillor
+          :city-official
         />
       </div>
     </div>
